@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap");
+
+* {
+  font-family: "M PLUS 1p", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#picture {
+  display: block;
+  margin: auto;
+  width: 50vw;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#descriptionText {
+  width: 60%;
+}
+
+#date {
+  position: absolute;
+  top: 0px;
+  right: 25px;
+}
+#author {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  visibility: hidden;
+}
+h1 {
+  font-size: 1.5rem;
+}
+
+h1#title {
+  font-size: 2rem;
+}
